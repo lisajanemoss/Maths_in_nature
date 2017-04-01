@@ -1,0 +1,25 @@
+h1 {
+	color: blue;
+}
+
+p {
+	color: green;
+	font-family: Helvetica;
+	font-size: 14px;
+}
+
+li {
+	background-color: grey;
+	color: white;
+}
+
+h2 {
+	color: blue;
+	background-color: black;
+}
+
+ol li{
+	color: white;
+	font-family: Helvetica;
+	font-size: 16px;
+}
