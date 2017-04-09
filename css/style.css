@@ -1,6 +1,8 @@
 h1 {
-background-position: center;
-color: #b62f26;
+	background-position: center;
+	color: #b62f26;
+	font-family: Helvetica;
+	font-size: 16px;
 }
 
 p {
@@ -10,13 +12,11 @@ p {
 }
 
 li {
-	background-color: grey;
-	color: white;
+	color: grey;
 }
 
 h2 {
-	color: blue;
-	background-color: black;
+	color: grey;
 }
 
 ol li{
