@@ -26,25 +26,25 @@ ol li{
 }
 
 #social-buttons​ button {
- color​:​ white;
+ color​:​ red;
 }
 .​btn​-​twitter​ {
- background​-​color​:​ #00acee;
- border​-​color​:​ #009ad5;
+ background​-​color​:​ #7B9EA8;
+ border​-​color​:​ black;
 }
 .​btn​-​facebook​ {
- background​-​color​:​ #4868ac;
- border​-​color​:​ #314776;
+ background​-​color​:​ #7B9EA8;
+ border​-​color​:​ black;
 }
 .​btn​-​pinterest​ {
- background​-​color​:​ #b62f26;
- border​-​color​:​ #b62f26;
+ background​-​color​:​ #7B9EA8;
+ border​-​color​:​ black;
 }
 
 .​jumbotron​ {
-min​-​height​:​ 600px;
-background​-​image​:​ url('images/peacock-plumage.jpeg');
+min-height: 600px;
+background-image: url('images/peacock-plumage.jpeg');
 background​-​size​:​ cover;
-background​-​attachment​:​ fixed​;
+background-attachment: fixed;
 }
 
