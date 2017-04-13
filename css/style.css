@@ -1,28 +1,37 @@
 h1 {
 	background-position: center;
 	color: #b62f26;
-	font-family: Helvetica;
-	font-size: 16px;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 24px;
 }
 
 p {
 	color: green;
-	font-family: Helvetica;
-	font-size: 14px;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 18px;
+	margin-top: 20px;
+	padding-left: 50px;
 }
 
 li {
-	color: grey;
+	color: black;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 16px;
+	padding-left: 50px;
 }
 
 h2 {
 	color: grey;
+	font-size: 36px;
+	font-family: 'Cormorant Garamond', serif;
+	padding-left: 50px;
 }
 
 ol li{
 	color: white;
-	font-family: Helvetica;
+	font-family: 'Cormorant Garamond', serif;
 	font-size: 16px;
+	padding-left: 50px;
 }
 
 #social-buttons​ button {
@@ -47,4 +56,3 @@ background-image: url('images/peacock-plumage.jpeg');
 background​-​size​:​ cover;
 background-attachment: fixed;
 }
-
