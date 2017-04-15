@@ -8,7 +8,7 @@ h1 {
 p {
 	color: green;
 	font-family: 'Cormorant Garamond', serif;
-	font-size: 18px;
+	font-size: 24px;
 	margin-top: 20px;
 	padding-left: 50px;
 }
@@ -32,6 +32,21 @@ ol li{
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 16px;
 	padding-left: 50px;
+}
+#examples {
+background-color: white;
+font-family: 'Cormorant Garamond', serif;
+color: grey;
+font-size: 18px;
+padding-top: 60px;
+padding-bottom: 40px;
+}
+
+#mailing {
+background-color: #dce0de;
+color: #ddd;
+padding-top: 60px;
+padding-bottom: 40px;
 }
 
 #social-buttons​ button {
