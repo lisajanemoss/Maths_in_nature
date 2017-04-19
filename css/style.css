@@ -49,25 +49,26 @@ padding-top: 60px;
 padding-bottom: 40px;
 }
 
-#social-buttons​ button {
- color​:​ red;
-}
-.​btn​-​twitter​ {
- background​-​color​:​ #7B9EA8;
- border​-​color​:​ black;
-}
-.​btn​-​facebook​ {
- background​-​color​:​ #7B9EA8;
- border​-​color​:​ black;
-}
-.​btn​-​pinterest​ {
- background​-​color​:​ #7B9EA8;
- border​-​color​:​ black;
-}
 
-.​jumbotron​ {
-min-height: 600px;
-background-image: url('../images/peacock-plumage.jpeg');
-background​-​size​:​ cover;
-background-attachment: fixed;
+
+#social-buttons button {
+	color: red;
+}
+.btn-twitter {
+	background-color:#7B9EA8;
+	border-color: black;
+}
+.btn-facebook {
+	background-color: #7B9EA8;
+	border-color: black;
+}
+.btn-pinterest {
+	background-color: #7B9EA8;
+	border-color: black;
+}
+.jumbotron {
+	min-height: 600px;
+	background-image: url('../images/peacock-plumage.jpeg');
+	background-size: cover;
+	background-attachment: fixed;
 }
