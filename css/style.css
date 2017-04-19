@@ -1,3 +1,11 @@
+.​jumbotron​ {
+	padding-top: 90px;
+	min-height: 600px;
+	background-image: url('../images/peacock-plumage.jpeg');
+	background​-​size​:​ cover;
+	background-attachment: fixed;
+}
+
 h1 {
 	background-position: center;
 	color: #b62f26;
@@ -10,28 +18,28 @@ p {
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 24px;
 	margin-top: 20px;
-	padding-left: 50px;
+	padding-left: 10px;
 }
 
 li {
 	color: black;
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 16px;
-	padding-left: 50px;
+	padding-left: 10px;
 }
 
 h2 {
 	color: grey;
 	font-size: 36px;
 	font-family: 'Cormorant Garamond', serif;
-	padding-left: 50px;
+	padding-left: 10px;
 }
 
 ol li{
 	color: white;
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 16px;
-	padding-left: 50px;
+	padding-left: 10px;
 }
 #examples {
 background-color: white;
@@ -48,9 +56,18 @@ color: #ddd;
 padding-top: 60px;
 padding-bottom: 40px;
 }
+.jumbotron .form-group {
+  line-height: 1em;
+}
 
-#social-buttons​ button {
+.jumbotron label {
+  color: black;
+}
+
+#social-buttons​ {
  color​:​ red;
+ }
+
 }
 .​btn​-​twitter​ {
  background​-​color​:​ #7B9EA8;
@@ -63,11 +80,4 @@ padding-bottom: 40px;
 .​btn​-​pinterest​ {
  background​-​color​:​ #7B9EA8;
  border​-​color​:​ black;
-}
-
-.​jumbotron​ {
-min-height: 600px;
-background-image: url('images/peacock-plumage.jpeg');
-background​-​size​:​ cover;
-background-attachment: fixed;
 }
