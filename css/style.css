@@ -3,16 +3,14 @@
 
 title {
 	background-position: center;
-	color:#F7F4F3;
-	font-family:'Black Ops One', cursive;
-	font-size: 40px;
 }
 
 h1 {
-	background-position: center;
-	color: #b62f26;
-	font-family: 'Cormorant Garamond', serif;
+	color: white;
+	font-family: 'Roboto', sans-serif;
 	font-size: 24px;
+	margin-top: 20px;
+	padding-left: 250px;
 }
 
 p {
@@ -84,7 +82,7 @@ padding-bottom: 40px;
 	border-color: black;
 }
 .jumbotron {
-	min-height: 600px;
+	min-height: 200px;
 	background-image: url('../images/tree_rings.jpg');
 	background-size: cover;
 	background-attachment: fixed;
@@ -95,3 +93,15 @@ padding-bottom: 40px;
      margin: 0 auto;
     }
 
+
+body {
+	margin: 0;
+}
+
+#openingimage img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 60px;
+padding-bottom: 40px;
+}
