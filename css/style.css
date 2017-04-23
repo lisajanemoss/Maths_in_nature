@@ -41,6 +41,14 @@ ol li{
 	font-size: 16px;
 	padding-left: 10px;
 }
+
+#initialExamples {
+
+padding-top: 60px;
+padding-bottom: 40px;
+
+}
+
 #examples {
 background-color: white;
 font-family: 'Cormorant Garamond', serif;
@@ -103,5 +111,5 @@ body {
 	margin-right: auto;
 	display: block;
 	padding-top: 60px;
-padding-bottom: 40px;
+	padding-bottom: 40px;
 }
