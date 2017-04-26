@@ -250,3 +250,21 @@ input[type=text] {
   background: #cb2027;
   color: white;
 }
+
+.text{
+    width: 700px;
+     margin: 0 auto;
+    }
+
+
+body {
+	margin: 0;
+}
+
+#openingimage img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
