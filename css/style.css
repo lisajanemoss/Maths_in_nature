@@ -84,13 +84,13 @@ nav a{
 }
 /* Joke rollover code */
 .rollovers{
-	background: #ddd;
+	background: #EDEDF2;
 	padding: 30px 0;
 	height: 500px;
 }
 .rollover-box {
 	background: white;
-	border: 5px solid #ddd;
+	border: 5px solid #EDEDF2;
 	position: relative;
 	margin-top: 40px;
 }
