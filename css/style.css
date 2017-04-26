@@ -1,116 +1,252 @@
+.jumbotron {
+	min-height: 600px;
+	background-image: url('../images/Angelica_flowerhead_showing_pattern.JPG');
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 100px;
+	margin-bottom: 0;
+}
+.jumbotron h1 {
+	font-family: 'Roboto Slab', serif;
+  color: white;
+	font-size: 60px;
+	margin-top: 150px;
+	text-align: center;
+}
+.navbar-inverse {
+  background-color: #4C5151;
+}
+nav a{
+	color:#4C5151;
+	font-family: 'Roboto Slab', serif;
+	text-transform: uppercase;
+}
+.jumbotron label {
+  color: white;
+}
 
+.box {
+	background-color: white;
+  width: 330px;
+	height: 500px;
+  margin: 25px;
+	padding-top: 30px;
+	float:left;
+	text-transform: uppercase;
+}
+.box.red a{
+	color: #FF6844;
+	display: block;
+	padding-bottom: 60px;
+}
+.box.red hr{
+	border-top: 3px solid #FF6844;
+}
+.box.blue a{
+	color: #2DC4C4;
+	display: block;
+	padding-bottom: 26px;
+}
+.box.blue hr{
+	border-top: 3px solid #2DC4C4;
+}
+.box.green a{
+	color: #24D128;
+	display: block;
+	padding-bottom: 60px;
+}
+.box.green hr{
+	border-top: 3px solid #24D128;
+}
 
+.box img {
+	width: 250px;
+	height: 250px;
+}
+.boxB {
+	background-color: white;
+  width: 330px;
+	height: 500px;
+  margin: 25px;
+	padding-top: 10px;
+	float:left;
+}
+.boxB p {
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+	text-align: left;
+	color: #656566;
+}
+.boxB img{
+	width: 330px;
+	height: 330px;
 
-title {
-	background-position: center;
+}
+/* Joke rollover code */
+.rollovers{
+	background: #ddd;
+	padding: 30px 0;
+	height: 500px;
+}
+.rollover-box {
+	background: white;
+	border: 5px solid #ddd;
+	position: relative;
+	margin-top: 40px;
+}
+.front,
+.back{
+	position: absolute;
+	left:0;
+}
+.front{
+	z-index: 100;
+}
+.back{
+	z-index:90;
+	padding: 20px;
+	background: rgba(256,256,256,.7);
+}
+.rollover-box:hover .front {
+	z-index: 89;
 }
 
 h1 {
-	color: white;
-	font-family: 'Roboto', sans-serif;
-	font-size: 24px;
-	margin-top: 20px;
-	padding-left: 250px;
+	background-position: center;
+	color: #2DC4C4;
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+h2 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	color: #2DC4C4;
+	text-transform: uppercase;
 }
 
 p {
-	color: green;
-	font-family: 'Cormorant Garamond', serif;
-	font-size: 24px;
+	color: grey;
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+	text-align: left;
 	margin-top: 20px;
 	padding-left: 10px;
 }
 
 li {
 	color: black;
-	font-family: 'Cormorant Garamond', serif;
+	font-family: 'Roboto Slab', serif;
 	font-size: 16px;
 	padding-left: 10px;
+}
+a {
+    color: hotpink;
 }
 
 h2 {
 	color: grey;
 	font-size: 36px;
-	font-family: 'Cormorant Garamond', serif;
+	font-family: 'Roboto Slab', serif;
 	padding-left: 10px;
 }
 
-ol li{
+ul li{
 	color: white;
-	font-family: 'Cormorant Garamond', serif;
+	font-family: 'Roboto Slab', serif;
 	font-size: 16px;
 	padding-left: 10px;
 }
-
-#initialExamples {
-
-padding-top: 60px;
-padding-bottom: 40px;
-
+#about {
+	background-color: #EDEDF2;
+	color: #ddd;
+	padding-top: 60px;
+	padding-bottom: 40px;
 }
-
 #examples {
-background-color: white;
-font-family: 'Cormorant Garamond', serif;
-color: grey;
-font-size: 18px;
-padding-top: 60px;
-padding-bottom: 40px;
+	background-color: #EDEDF2;
+	color: #ddd;
+	padding-top: 20px;
+	padding-bottom: 40px;
 }
 
-#mailing {
-background-color: #dce0de;
-color: #ddd;
-padding-top: 60px;
-padding-bottom: 40px;
-}
-.jumbotron .form-group {
-  line-height: 1em;
-}
-
-.jumbotron label {
-  color: black;
-}
-
-#social-buttons button {
-	color: #38484D;
-}
-
-.btn-twitter {
-	background-color:#709099;
-	border-color: black;
-}
-.btn-facebook {
-	background-color: #709099;
-	border-color: black;
-}
-
-.btn-pinterest {
-	background-color: #709099;
-	border-color: black;
-}
-.jumbotron {
-	min-height: 200px;
-	background-image: url('../images/tree_rings.jpg');
-	background-size: cover;
-	background-attachment: fixed;
-}
-
-.text{
-    width: 700px;
-     margin: 0 auto;
-    }
-
-
-body {
-	margin: 0;
-}
-
-#openingimage img {
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
+#explore {
+	background-color: #EDEDF2;
+	font-family: 'Roboto Slab', serif;
+	color: hotpink;
+	font-size: 24px;
 	padding-top: 60px;
 	padding-bottom: 40px;
 }
 
+#mailing {
+	background-color: #EDEDF2;
+	font-family: 'Roboto Slab', serif;
+	color: #ddd;
+	padding-top: 200px;
+	padding-bottom: 40px;
+}
+
+.form-control{
+	background-color: white;
+	height: 50px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 24px;
+}
+.btn.btn-success {
+	background-color: #2DC4C4;
+	height: 50px;
+	font-size: 24px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+
+#social-buttons {
+	background-color: #EDEDF2;
+	color: #ddd;
+	padding-top: 60px;
+	padding-bottom: 40px;
+	}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+		margin: 5px 2px;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+/* instagram */
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+/* pinterest */
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
